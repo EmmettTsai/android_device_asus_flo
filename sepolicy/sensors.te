@@ -1,7 +1,6 @@
 # Integrated qualcomm sensor process
-type sensors, domain;
+type sensors, domain, domain_deprecated;
 type sensors_exec, exec_type, file_type;
-typeattribute sensors domain_deprecated;
 
 # Started by init
 init_daemon_domain(sensors)

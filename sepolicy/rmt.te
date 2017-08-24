@@ -1,7 +1,6 @@
 # remote storage process (runs as nobody)
-type rmt, domain;
+type rmt, domain, domain_deprecated;
 type rmt_exec, exec_type, file_type;
-typeattribute rmt domain_deprecated;
 
 # Started by init
 init_daemon_domain(rmt)

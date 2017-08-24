@@ -1,7 +1,6 @@
 # kickstart processes and scripts (system process)
-type kickstart, domain;
+type kickstart, domain, domain_deprecated;
 type kickstart_exec, file_type, exec_type;
-typeattribute kickstart domain_deprecated;
 
 init_daemon_domain(kickstart)
 
