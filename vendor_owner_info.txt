@@ -144,7 +144,7 @@ system/vendor/firmware/q6.mdt:qcom
 system/bin/qcks:qcom
 fake_packages/qcom_8x64_gpu_libs-timestamp:qcom
 system/bin/qmuxd:qcom
-system/bin/qseecomd:qcom
+system/vendor/bin/qseecomd:qcom
 system/bin/radish:qcom
 system/bin/rmt_storage:qcom
 system/lib/hw/flp.msm8960.so:qcom
