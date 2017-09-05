@@ -305,5 +305,27 @@ PRODUCT_LOCALES := en_US es_US de_DE zh_CN
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=24
 
+
+### HIDL ###
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.drm@1.0-impl \
+    android.hardware.gnss@1.0-impl \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.mapper@2.0-impl \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.light@2.0-impl \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.nfc@1.0-impl \
+    android.hardware.renderscript@1.0-impl \
+    android.hardware.sensors@1.0-impl \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.wifi@1.0-service \
+
+#    android.hardware.graphics.composer@2.1-impl \
+
+
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
